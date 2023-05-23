@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Inter', sans-serif;;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 20px;
+
+}
+p{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px 20px;
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 325px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+}
